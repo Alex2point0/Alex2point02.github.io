@@ -1,4 +1,6 @@
+# Site wide configuration
 title: Jane Doe # your name (or website title) here
+locale: en_US
 logo: "/images/avatar.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
@@ -8,3 +10,13 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/alexandria-horne/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
+
+
+# Enter the following platform usernames if you would like for them to appear on your site.
+owner:
+  name: Me
+  avatar: /images/avatar.jpg
+  bio: "This is a sample Jekyll academic website."
+  email: me@me.com
+  linkedin: #username
+  github: Alex2point0
