@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <title>Audubon - Pascagoula</title>
+		<script>
+			
+		</script>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="javasript/index.js"></script>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="inappbrowser.js"></script>
+		<link rel="stylesheet" href="inappbrowser.css" >
+		<div id="Load"><p>Loading...</p></div>
+		
+
+		
+		<script>
+			
+			
+			
+			// Wait for device API libraries to load
+			//
+			document.addEventListener("offline", offlineMode, false);
+			document.addEventListener("deviceready", onDeviceReady, false);
+			
+
+			// device APIs are available
+			//
+			function onDeviceReady() {
+				window.open = cordova.InAppBrowser.open;
+
+				 var ref = window.open('http://67.227.175.97/~audubon/audubonapp/static/', '_blank', 'location=no,toolbar=no');
+				 StatusBar.hide();
+					var hideSb = function(){
+					//        StatusBar.hide;
+							cordova.exec(null, null, 'StatusBar', 'hide', ['Ehi', 'You']);
+						};
+				 
+				/* ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
+				 ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
+				 ref.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });
+				 ref.addEventListener('exit', function(event) { alert(event.type); }); */
+			}			
+			function offlineMode(){
+				window.open = cordova.InAppBrowser.open;
+		
+				var ref = window.open('../www/static/index.html', '_blank', 'location=no,toolbar=no');
+			}
+			
+		</script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- --------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- <script>
+var nativePlantsEmbedFormSettings = {
+  color_scheme: 'white',
+  shape: 'square',
+};
+</script>
+<script id="native-plants-embed-form" src="//www.audubon.org/sites/all/modules/custom/native_plants_embed_form/native_plants_embed_form.min.js"></script> -->
+<title>Audubon Dive App</title>
+</head>
+<body>
+<div class="container">
+	<section id="content">
+		<form action="">
+			<h1>Dive App Login</h1>
+			<div>
+				<input type="text" placeholder="Username" required ="" id="username" />
+			</div>
+			<div>
+				<input type="password" placeholder="Password" required="" id="password" />
+			</div>
+			<div>
+				<input type="submit" value="Log in" />	
+			</div>
+		</form>
+		<div class="button">
+			
+		</div>
+	</section>
+</div>
+	
+	
+<div class="container">
+	<section id="searchbox">	
+		<form action="">
+			<h1>Dive App Login</h1>
+			<div>
+				<input type="text" placeholder="Username" required ="" id="username" />
+			</div>
+			<div>
+				<input type="password" placeholder="Password" required="" id="password" />
+			</div>
+			<div>
+				<input type="submit" value="Log in" />	
+			</div>
+		</form>
+		<div class="button">
+			
+		</div>
+	
+
+	
+	
+	</section>
+</div>
+	
+	
+</head>
+<body>
+
+
+
+</body>
+</html>
