@@ -4,6 +4,16 @@
 
 ### Category Name 1 
 
+<!--
+[link to Google](https://www.google.com)
+### Let’s Add an Image (from an external website)
+![Jetpacktocat](https://octodex.github.com/images/jetpacktocat.png)
+![](https://octodex.github.com/images/jetpacktocat.png) -->
+
+<!--
+### Uploading images to your website and using them
+![](images/bio-photo.jpg) -->
+
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
@@ -31,5 +41,5 @@
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+<!--<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+Remove above link if you don't want to attibute -->
